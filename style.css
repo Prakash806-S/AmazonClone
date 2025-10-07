@@ -57,6 +57,10 @@
     justify-content: center;
     align-items: center;
 
+
+}
+input:hover{
+    border: 2px solid orange;
 }
 .selector{
     height: 40px;
@@ -107,11 +111,113 @@ input{
 
     
     }
-    #line2{
+    .line2{
         color: white;
         font-size: 14px;
         font-weight: 600;
 
 
     }
+    .cart-parent{
+        height: 60px;
+        width: 85px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .box5{
+        height: 55px;
+        width: 141px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+    
+    .cart{
+        height: 32px;
+        width: 70px;
+    }
+    .cart i{
+        font-size: 30px;
+    }
+    .cart{
+        font-size: 0.85rem;
+    }
+    .nav-2{
+        height: 39px;
+        width: 100%;
+        background-color: #232F3E;
+        display: flex;
+    }
+    .more i{
+        font-size: 14px;
+    }
+    .more {
+        height: 39px;
+        width: 58px;
+        color: white;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        font-size: 14px;
+        font-weight: 400px;
+    }
+    .nav-a{
+        height: 36px;
+        width: 105px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .nav-at{
+        height: 28px;
+        width: 94px;
+        font-size: 14px;
+        color: white;
+        font-weight: 500px;
+        position: relative;
+        top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .hero{
+        height: 600px;
+        background-image: url(first.png);
+        background-size: cover;
+        animation-name: slideAnimation;
+        animation-duration: 20s;
+        animation-timing-function: alternate;
+        animation-iteration-count: 10;
+        animation-delay: 0s;
+        animation-direction: running slide-in;
+    }
+
+    @keyframes slideAnimation{
+        0%{
+            background-image: url(first.png);
+        }
+        25%{
+            background-image: url(second.png);
+
+        }
+        50%{
+            background-image: url(third.png);
+
+        }
+        75%{
+            background-image: url(fourth.png);
+
+        }
+        100%{
+            background-image: url(first.png);
+        }
+
+    }
+    
+
+
+
     
